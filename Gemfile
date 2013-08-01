@@ -45,11 +45,13 @@ group :development do
   gem 'guard'
   gem 'guard-rspec'
   gem 'zeus'
+  #gem 'webrat'
 end
 
 group :test do
   gem 'rspec'
   gem 'zeus'
+  #gem 'webrat'
 end
 # gem 'capistrano', group: :development
 
