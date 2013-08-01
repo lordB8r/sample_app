@@ -1,4 +1,9 @@
 SampleApp::Application.routes.draw do
+  root :to => 'pages#home'
+  get '/contact', :to => 'pages#contact'
+  get '/about', :to => 'pages#about'
+  get '/help', :to => 'pages#help'
+
   get "pages/home"
   get "pages/contact"
   get "pages/about"
@@ -42,7 +47,7 @@ SampleApp::Application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
-  
+
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'
