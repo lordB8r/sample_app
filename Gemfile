@@ -45,6 +45,7 @@ group :development do
   gem 'guard'
   gem 'guard-rspec'
   gem 'zeus'
+  #gem 'annotate-models'
   #gem 'webrat'
 end
 
