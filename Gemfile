@@ -3,6 +3,13 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
+# Strong protection
+gem 'protected_attributes'
+gem 'devise', '3.0.0.rc'
+
+# gravatars
+gem 'gravatar_image_tag'
+
 # Use postgres as the database for Active Record
 gem 'pg'
 
@@ -45,6 +52,7 @@ group :development do
   gem 'guard'
   gem 'guard-rspec'
   gem 'zeus'
+  gem 'factory_girl_rails'
   #gem 'annotate-models'
   #gem 'webrat'
 end
@@ -52,6 +60,7 @@ end
 group :test do
   gem 'rspec'
   gem 'zeus'
+  gem 'factory_girl_rails'
   #gem 'webrat'
 end
 # gem 'capistrano', group: :development
