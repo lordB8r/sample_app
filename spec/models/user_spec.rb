@@ -116,4 +116,12 @@ describe User do
     end
 
   end
+
+  describe "authentications" do
+    before (:each) do
+      @user = FactoryGirl.create(:user)
+    end
+
+
+  end
 end
