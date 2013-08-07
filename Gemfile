@@ -3,6 +3,9 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
+# Faker for dev and heroku
+gem 'faker'
+
 # Strong protection
 gem 'protected_attributes'
 gem 'devise', '3.0.0.rc'
@@ -56,7 +59,6 @@ group :development do
   gem 'guard-rspec'
   gem 'zeus'
   gem 'factory_girl_rails'
-  gem 'faker'
   #gem 'annotate-models'
   #gem 'webrat'
 end
