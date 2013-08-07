@@ -28,4 +28,12 @@ describe "LayoutLinks" do
     end
 
   end
+
+  #describe "when not signed in" do
+  #  it "should have a signin link" do
+  #    visit root_path
+  #    response.should have_selector("a", :href => signin_path, :content => "Sign in")
+  #  end
+  #end
+  ##skipped tests on pg 358 (9.4.3) b/c visit root_path fails (visit isn't liked w/o webrat or capybara)
 end
