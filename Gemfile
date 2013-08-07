@@ -10,6 +10,9 @@ gem 'devise', '3.0.0.rc'
 # gravatars
 gem 'gravatar_image_tag'
 
+# Pagination
+gem 'will_paginate'
+
 # Use postgres as the database for Active Record
 gem 'pg'
 
@@ -53,6 +56,7 @@ group :development do
   gem 'guard-rspec'
   gem 'zeus'
   gem 'factory_girl_rails'
+  gem 'faker'
   #gem 'annotate-models'
   #gem 'webrat'
 end
