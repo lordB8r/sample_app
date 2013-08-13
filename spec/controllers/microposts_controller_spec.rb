@@ -38,7 +38,7 @@ describe MicropostsController do
 
     describe "success" do
       before(:each) do
-        @att = {:content => "lorem ipsum"}
+        @attr = {:content => "lorem ipsum"}
       end
 
       it "should create a micropost" do
